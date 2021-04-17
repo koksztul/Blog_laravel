@@ -8,6 +8,17 @@
 </p>
 
 
+Templates used in project:
+- 2103 Template <a href="https://www.tooplate.com/view/2103-central">alt="Link">Link</a>
+- AdminLTE Temple <a href="https://adminlte.io/">alt="Link"Link></a>
+
+Bootstrap elements used in project:
+- Comments <a href="https://bbbootstrap.com/snippets/bootstrap-comments-list-font-awesome-icons-and-toggle-button-91650380">alt="Link">Link></a>
+- User profile from AdminLTE <a href="https://adminlte.io/themes/AdminLTE/pages/examples/profile.html">alt="Link"Link>Link</a>
+- Data table <a href="https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=data-table-with-search-box">alt="Link"Link>Link</a>
+
+
+
 Few images form project:
 
 - Main page
