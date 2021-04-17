@@ -24,7 +24,7 @@ Few images form project:
 - Main page
 ![alt text](https://www.linkpicture.com/q/1_254.png)
 
-- Comments under posts
+- Comments in post page
 ![alt text](https://www.linkpicture.com/q/3_201.png)
 
 - Different sidebar menu for different user groups
