@@ -10,7 +10,7 @@
 
 Templates used in project:
 - 2103 Template <a href="https://www.tooplate.com/view/2103-central">Link</a>
-- AdminLTE Temple <a href="https://adminlte.io/"></a>
+- AdminLTE Temple <a href="https://adminlte.io/">Link</a>
 
 Bootstrap elements used in project:
 - Comments <a href="https://bbbootstrap.com/snippets/bootstrap-comments-list-font-awesome-icons-and-toggle-button-91650380">Link</a>
