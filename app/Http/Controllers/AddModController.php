@@ -9,12 +9,12 @@ class AddModController extends Controller
 {
     public function index()
     {
-       $users = DB::table('users')
-            ->get()
-            ->where('group_id', 0);
-         return view('adminLte.addmod', ['users' => $users]);
+        $users = DB::table('users')
+        ->get()
+        ->where('group_id', 0);
+        return view('adminLte.addmod', ['users' => $users]);
     }
-    public function AddMod(Request $req)
+    public function addMod(Request $req)
     {
         DB::table('users')
         ->where('name', $req->name)
@@ -22,7 +22,7 @@ class AddModController extends Controller
             [
                 'group_id' => 1
             ]
-            );
+        );
         return redirect('add-mod');
     }
 }

@@ -56,4 +56,3 @@ Route::get('comment/edit/{idcomment}', 'MyCommentsController@viewcomment');
 Route::post('comment/edit/{idcomment}', 'MyCommentsController@editcomment');
 
 Route::get('/home', 'HomeController@index')->name('home');
-

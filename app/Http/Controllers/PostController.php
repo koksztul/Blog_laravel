@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
-    function viewpost($idpost)
+    public function viewpost($idpost)
     {
         $post = DB::table('posts')
         ->where('id', $idpost)
@@ -23,16 +23,18 @@ class PostController extends Controller
         ->count();
         return view('post', ['post' => $post, 'comments' => $comments, 'count_comments' => $conut_comments]);
     }
-    function AddComment(Request $req)
+    public function addComment(Request $req)
     {
         DB::table('comments')
-        ->insert([
+        ->insert(
+            [
             'text' => $req->text,
             'post_id' => $req->post_id,
             'user_id' => $req->user_id,
             'created_at' => new \DateTime(),
             'updated_at' => new \DateTime()
-        ]);
+            ]
+        );
         return redirect()->back();
         //redirect('post/'.$req->post_id);
     }

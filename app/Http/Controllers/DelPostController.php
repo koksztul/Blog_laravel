@@ -13,7 +13,7 @@ class DelPostController extends Controller
         ->get();
         return view('adminLte.delpost', ['posts' => $posts]);
     }
-    public function DelPost(Request $req)
+    public function delPost(Request $req)
     {
         DB::table('posts')
         ->where('id', $req->post_id)

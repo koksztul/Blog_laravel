@@ -14,13 +14,15 @@ class DelModController extends Controller
         ->where('group_id', 1);
         return view('adminlte.delmod', ['mods' => $mods]);
     }
-    public function DelMod(Request $req)
+    public function delMod(Request $req)
     {
         DB::table('users')
         ->where('id', $req->id)
-        ->update([
+        ->update(
+            [
             'group_id' => 0
-        ]);
+            ]
+        );
         return redirect('del-mod');
     }
 }

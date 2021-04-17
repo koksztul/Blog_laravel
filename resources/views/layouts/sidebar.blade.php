@@ -12,9 +12,19 @@
         <div class="image">
           <img src="{{asset('dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
         </div>
+        @if (Auth::user()->group_id == 2)
+        <div class="info">
+          <a href="#" class="d-block"><b style="color:green">[ADM] </b>{{Auth::user()->name}}</a>
+        </div>
+        @elseif (Auth::user()->group_id == 1)
+        <div class="info">
+          <a href="#" class="d-block"><b style="color:green">[MOD] </b>{{Auth::user()->name}}</a>
+        </div>
+        @else
         <div class="info">
           <a href="#" class="d-block">{{Auth::user()->name}}</a>
         </div>
+        @endif
       </div>
       <!-- Sidebar Menu -->
       <nav class="mt-2">

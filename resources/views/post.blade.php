@@ -98,7 +98,9 @@
                                     <div class="user d-flex flex-row align-items-center"> <img src="{{asset('dist/img/user2-160x160.jpg')}}" width="30" class="user-img rounded-circle mr-2"> <span><small class="font-weight-bold text-primary">{{ $comment->name }}</small> <small class="font-weight-bold">{{$comment->text}}</small></span></div>
                                 </div>
                                 <div class="action d-flex justify-content-between mt-2 align-items-center">
+                                    <!--
                                     <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span class="dots"></span> <small>Translate</small> </div>
+                                    -->
                                 </div>
                             </div>
                         @endforeach
