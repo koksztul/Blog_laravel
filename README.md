@@ -8,12 +8,15 @@
 </p>
 
 
-Few images form project
-Main page:
+Few images form project:
+
+- Main page
 ![alt text](https://www.linkpicture.com/q/1_254.png)
-Different sidebar menu for different user groups
+
+- Different sidebar menu for different user groups
 ![alt text](https://www.linkpicture.com/q/2_226.png)
-Comments under posts
+
+- Comments under posts
 ![alt text](https://www.linkpicture.com/q/3_201.png)
 ## About Laravel
 
